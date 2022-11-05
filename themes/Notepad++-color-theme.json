@@ -1,0 +1,298 @@
+{
+	"name": "Notepad++ default",
+	"type": "light",
+	"colors": {
+		"editor.background": "#ffffff",
+		"editor.foreground": "#000000",
+		"editor.selectionBackground": "#c0c0c0",
+		"editor.selectionHighlightBackground": "#00ff0064",
+		"editor.lineHighlightBorder": "#e8e8ff",
+		"editor.lineHighlightBackground": "#e8e8ff",
+		"editorGutter.background": "#e4e4e4",
+		"editorBracketMatch.background": "#ffffff",
+		"editorBracketMatch.border": "#ffffff",
+		"editorGroupHeader.tabsBackground": "#d4d0c8",
+		"tab.activeBackground": "#d4d0c8",
+		"tab.inactiveBackground": "#c0c0c0",
+		"tab.inactiveForeground": "#0000003a",
+		"editorIndentGuide.background": "#c0c0c0",
+		"editorIndentGuide.activeBackground": "#ff0000",
+		"editorLineNumber.activeForeground": "#808080",
+		"editorLineNumber.foreground": "#808080",
+		"activityBar.background": "#d4d0c8",
+		"activityBar.foreground": "#000000",
+		"editorBracketHighlight.foreground1": "#000080",
+		"editorBracketHighlight.foreground2": "#000080",
+		"editorBracketHighlight.foreground3": "#000080",
+		"editorBracketHighlight.foreground4": "#000080",
+		"editorBracketHighlight.foreground5": "#000080",
+		"editorBracketHighlight.foreground6": "#000080",
+		"selection.background": "#c0c0c0",
+		"sideBar.background": "#ffffff",
+		"sideBarTitle.foreground": "#000000"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#008000"
+			}
+		},
+		{
+			"name": "Comments: Documentation",
+			"scope": [
+				"comment.documentation",
+				"comment.block.javadoc",
+				"comment.line.double-slash.documentation"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "Comments Javadoc: @param",
+			"scope": [
+				"keyword.other.documentation.javadoc"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword",
+				"constant.language",
+				"storage.modifier.extends",
+				"storage.type.namespace.directive"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "Java: Imports",
+			"scope": [
+				"storage.modifier.import",
+				"storage.modifier.package"
+			],
+			"settings": {
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Java: Storage Modifier",
+			"scope": [
+				"storage.modifier",
+				"keyword.other.package",
+				"storage.type"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#8000FF"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#ff8000"
+			}
+		},
+		{
+			"name": "Punctuation: Bold",
+			"scope": [
+				"punctuation.bracket",
+				"punctuation.separator",
+				"punctuation.terminator",
+				"punctuation.section",
+				"punctuation.definition.parameters",
+				"punctuation.definition.begin",
+				"punctuation.definition.end",
+				"punctuation.definition.block",
+				"keyword.operator",
+				"meta.brace.round",
+				"meta.brace.square"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#000080"
+			}
+		},
+		{
+			"name": "C++: Preprocessor Directives",
+			"scope": [
+				"keyword.control.directive",
+				"meta.preprocessor"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#804000"
+			}
+		},
+		{
+			"name": "Java: Defaults",
+			"scope": [
+				"storage.type.java",
+				"storage.type.generic.java",
+				"storage.type.annotation"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "Java: this",
+			"scope": [
+				"variable.language"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#0000ff"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted.double"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#808080"
+			}
+		},
+		{
+			"name": "Strings: Markup Languages",
+			"scope": [
+				"string.quoted.double.xml",
+				"string.quoted.double.html"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#8000ff"
+			}
+		},
+		{
+			"name": "XML: variable (left of =)",
+			"scope": [
+				"entity.other.attribute-name",
+				"punctuation.separator.namespace"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FF0000"
+			}
+		},
+		{
+			"name": "XML: Tags",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#0000FF"
+			}
+		},
+		{
+			"name": "XML: Tags Punctuation Preprocessor",
+			"scope": [
+				"meta.tag.preprocessor"
+			],
+			"settings": {
+				"foreground": "#FF0000"
+			}
+		},
+		{
+			"name": "Json: Key",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#8000ff"
+			}
+		},
+		{
+			"name": "String: Json",
+			"scope": [
+				"string.quoted.double.json"
+			],
+			"settings": {
+				"foreground": "#800000"
+			}
+		},
+		{
+			"name": "ASM: Registers",
+			"scope": [
+				"constant.language.register"
+			],
+			"settings": {
+				"foreground": "#8080ff"
+			}
+		},
+		{
+			"name": "CSS: Defaults",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ff8000"
+			}
+		},
+		{
+			"name": "CSS: Value (after :)",
+			"scope": [
+				"meta.property-value",
+				"keyword.other.unit.px",
+				"keyword.other.unit.percentage",
+				"constant.numeric.css"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "CSS: Property (before :)",
+			"scope": [
+				"support.type.property-name.css"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#8080c0"
+			}
+		},
+		{
+			"name": "HTML: Punctuation",
+			"scope": [
+				"punctuation.separator.key-value.html"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "JS: Keywords",
+			"scope": [
+				"storage.type.function",
+				"storage.type.js"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#0000ff"
+			}
+		}
+	]
+}

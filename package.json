@@ -1,0 +1,37 @@
+{
+  "name": "notepad---color-theme",
+  "displayName": "Notepad++ color theme",
+  "description": "Notepad++ based color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "publisher": "ShayanAhmedKhan",
+  "author": {
+    "name": "Shayan Ahmed Khan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevShayan/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "notepad++",
+    "notepad++ color theme",
+    "notepadpp",
+    "notepadpp color theme"
+  ],
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Notepad++ default",
+        "uiTheme": "vs",
+        "path": "./themes/Notepad++-color-theme.json"
+      }
+    ]
+  }
+}
