@@ -1,9 +1,12 @@
 # Change Log
 
-All notable changes to the "notepad---color-theme" extension will be documented in this file.
+## [0.1.0 - 04-08-2022]
+#### Changed, Added
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Changed Editor Colors
+- Added support for Python, Markdown, Assembly
 
-## [Unreleased]
+## [0.0.1 - 11-20-2022]
+#### Added
 
-- Initial release
+- Initial Release

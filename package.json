@@ -28,9 +28,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Notepad++ default",
+        "label": "Default (Notepad++)",
         "uiTheme": "vs",
-        "path": "./themes/Notepad++-color-theme.json"
+        "path": "./themes/notepadpp-color-theme.json"
       }
     ]
   }
