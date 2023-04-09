@@ -2,7 +2,7 @@
   "name": "notepadpp-color-theme",
   "displayName": "Notepad++ color theme",
   "description": "Notepad++ based color theme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.0.0"
   },
