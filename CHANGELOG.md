@@ -1,6 +1,11 @@
 # Change Log
 
-## [0.1.0 - 04-08-2022]
+## [0.1.1 - 04-09-2023]
+#### Changed
+
+- Changed Editor Colors
+
+## [0.1.0 - 04-08-2023]
 #### Changed, Added
 
 - Changed Editor Colors
