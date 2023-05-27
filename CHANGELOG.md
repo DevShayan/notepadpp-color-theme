@@ -1,6 +1,6 @@
 # Change Log
 
-## [0.1.1 - 05-27-2023]
+## [0.2.0 - 05-27-2023]
 #### Added
 
 - Default Notepadd++ dark
