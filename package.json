@@ -1,7 +1,7 @@
 {
   "name": "notepadpp-color-theme",
-  "displayName": "Notepad++ color theme",
-  "description": "Notepad++ based color theme",
+  "displayName": "Notepad++ color themes",
+  "description": "Notepad++ based color themes",
   "version": "0.1.1",
   "engines": {
     "vscode": "^1.0.0"
@@ -28,9 +28,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Default (Notepad++)",
+        "label": "Default (Notepad++ light)",
         "uiTheme": "vs",
-        "path": "./themes/notepadpp-color-theme.json"
+        "path": "./themes/default-light-color-theme.json"
+      },
+      {
+        "label": "Default (Notepad++ dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default-dark-color-theme.json"
       }
     ]
   }

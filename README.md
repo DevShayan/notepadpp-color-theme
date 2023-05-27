@@ -1,6 +1,14 @@
-# Notepad++ color theme README
+# Notepad++ color themes README
 
-Default Notepad++ color theme for VS Code.
+Default Notepad++ color themes for VS Code.
+
+## Previews
+
+* Default (Notepad++ light)
+![Default (Notepad++ light)](preview/screenshot_default_light.png)
+
+* Default (Notepad++ dark)
+![Default (Notepad++ dark)](preview/screenshot_default_dark.png)
 
 ## Supported Languages
 * HTML - CSS - JS
@@ -12,10 +20,8 @@ Default Notepad++ color theme for VS Code.
 
 ### To apply theme:
 
-* Ctrl+Shift+P -> Preferences: Color Theme -> Default (Notepad++)
-
-## Preview
-
-![Preview 1](preview/preview_default.png)
+* Ctrl+Shift+P -> Preferences: Color Theme -> Default (Notepad++ light)
+* Ctrl+Shift+P -> Preferences: Color Theme -> Default (Notepad++ dark)
+---
 
 **Enjoy!**
